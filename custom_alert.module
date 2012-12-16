@@ -9,7 +9,7 @@
 */
 function custom_alert_page_build(&$page) {
   $page['content']['alert'] = array(
-    '#weight' => 25, 
+    '#weight' => 0, 
     '#markup' => '<div style="clear:both;">Alertaaaa</div>',
   );
 }
