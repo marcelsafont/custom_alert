@@ -8,6 +8,7 @@
 * implements hook_page_build
 */
 function custom_alert_page_build(&$page) {
+  $page['content']['#sorted'] = FALSE;
   $page['content']['alert'] = array(
     '#weight' => 0, 
     '#markup' => '<div style="clear:both;">Alertaaaa</div>',
