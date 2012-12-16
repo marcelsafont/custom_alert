@@ -1,0 +1,18 @@
+<?php
+/**
+* @file
+* allows add alert message to pages
+*/
+
+/**
+* implements hook_page_build
+*/
+function custom_alert_page_build(&$page) {
+  $page['content']['alert'] = array(
+    '#weight' => 25, 
+    '#markup' => '<div style="clear:both;">Alertaaaa</div>',
+  );
+}
+
+
+?>
