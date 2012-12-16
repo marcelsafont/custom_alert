@@ -1,0 +1,3 @@
+name = Custom alert
+description = Allows to add an alert messages 
+core = 7.x
